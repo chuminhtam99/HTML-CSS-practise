@@ -1,0 +1,40 @@
+:root{
+    --main-color: rgb(251,85,51);
+    --text-color: rgb(239,96,68); 
+    --nav-bar-height: 34px;
+    --header-height: 119px;
+    --carousel-height: 235.016px;
+}
+
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /* line-height: 1.6rem; */
+}
+
+.grid{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid_row{
+    margin-left: -6px;
+    margin-right: -6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__column-2{
+    
+}
